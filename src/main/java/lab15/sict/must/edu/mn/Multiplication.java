@@ -1,16 +1,15 @@
 package lab15.sict.must.edu.mn;
 
 /**
- * Сайжруулсан үржүүлэх функц.
+ * Сайжруулсан баримтжуулалттай үржүүлэх функц.
+ * Хоёр тоог үржүүлдэг ээ
+ *
+ * @param a эхний операнд (үржигдэгч)
+ * @param b хоёр дахь операнд (үржигч)
+ * @return хоёр операндын үржвэр
  */
 public class Multiplication {
-    /**
-     * Хоёр тоог үржүүлж, үржвэрийг буцаана.
-     *
-     * @param a эхний тоо
-     * @param b хоёр дахь тоо
-     * @return a ба b-ийн үржвэр
-     */
+
     public double multiply(double a, double b) {
         return a * b;
     }
